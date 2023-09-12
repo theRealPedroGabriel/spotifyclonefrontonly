@@ -1,5 +1,5 @@
 import React from "react";
 import axios from "axios";
 export default axios.create({
-  baseURL: "https://spotifyclone-api.onrender.com",
+  baseURL: "https://spotifycloneback.onrender.com",
 });

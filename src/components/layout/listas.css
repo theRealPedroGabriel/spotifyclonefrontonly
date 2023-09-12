@@ -1,0 +1,18 @@
+.cardp {
+  margin: 10px;
+}
+.list-group-item-dark {
+  color: #1ed760;
+  background-color: #191414;
+}
+h4 {
+  font-size: 1em;
+  color: #ffff;
+}
+section{
+
+    padding-top: 10em;
+}
+h2{
+  color: #1ed760;
+}

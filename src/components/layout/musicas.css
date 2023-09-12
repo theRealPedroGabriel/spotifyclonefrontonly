@@ -1,0 +1,35 @@
+.capaplaylist {
+  width: 70%;
+  height: 100%;
+}
+.capamusicas {
+  margin: 20px 0px;
+  height: 40vh;
+}
+.capinha {
+  max-width: 50px;
+}
+b {
+  margin: 0px 10px;
+}
+
+.list-group {
+  margin: 10px auto;
+}
+audio{
+    margin-left: auto;
+}
+
+.bodys{
+   background-color: #000;
+    padding-top: 7em;
+    padding-bottom: 5em;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.list-group-item {
+   color: #1ed760;
+  background-color: #191414;
+}

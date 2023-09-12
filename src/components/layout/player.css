@@ -1,0 +1,49 @@
+.music-player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  z-index: 100;
+}
+.music-player {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.music-player-info {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.music-player-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.music-player-controls button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.music-player-controls button:focus {
+  outline: none;
+}
+
+.music-player-controls button:active {
+  transform: translateY(1px);
+}
+
+.progress-bar {
+  height: 3px;
+}
+
+.progress-bar .progress-bar-label {
+  font-size: 12px;
+}

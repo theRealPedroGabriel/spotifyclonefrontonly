@@ -1,0 +1,107 @@
+.home {
+  height: 80vh;
+  align-items: center;
+  
+  justify-content: center;
+  padding-top: 10em;
+}
+.bodyconteudo {
+  background-image: url("/public/imagens/capa.png"),
+    url("/public/imagens/ruido.png"), linear-gradient(50deg, #1ed760, #ff4169)
+}
+h1 {
+  justify-content: center;
+  display: flex;
+}
+
+a {
+  justify-content: center;
+}
+.capa {
+  text-align: center;
+}
+.capa a {
+  color: #1ed760;
+}
+.capa a:hover {
+  color: #158d3f;
+}
+
+.btn-custom {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 30px;
+  margin: 10px 20px;
+}
+
+.btn-roxo {
+  background: #ff4169;
+}
+
+.btn-roxo:hover {
+  background: #fa0e41;
+  color: white;
+}
+.btn-primary {
+  border-color: #fa0e41;
+}
+.btn-primary:hover {
+  border-color: white;
+}
+.btn-light {
+  border: 2px solid white;
+  color: black;
+}
+
+.btn-light:hover {
+  background-color: white;
+  color: black;
+  border-color: #fa0e41;
+}
+
+/* 2 parte playlists  
+-----------------------------*/
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#servicos {
+  background: #191414;
+}
+
+#recursos {
+  color: #fff;
+}
+
+#servicos p {
+  color: #fff;
+}
+
+#servicos h2,
+h3 {
+  color: #1ed760;
+}
+
+#recursos h2 {
+  color: white;
+}
+
+#recursos h3 {
+  color: #191414;
+}
+
+.albuns {
+  padding: 10px 0;
+}
+
+.rotacionar {
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+  transform: rotate(30deg);
+  padding-left: 80px;
+}

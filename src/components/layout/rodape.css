@@ -1,0 +1,66 @@
+footer {
+  background: #191414;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+}
+
+.conta {
+  display: grid;
+  width: 60%;
+  padding: 20px;
+}
+footer h4 {
+  color: #919496;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+  color: white;
+  font-size: 0.8em;
+  justify-content: left;
+  text-decoration: none;
+}
+
+footer .navbar-nav a:hover {
+  color: #9bf0e1;
+}
+
+footer ul {
+  display: grid;
+  list-style: none;
+  padding: 0;
+  justify-content: left;
+}
+footer ul li {
+  float: right;
+  margin: 0 5px;
+}
+.navbar-nav li {
+  margin: 3px;
+}
+
+div .um {
+  display: grid;
+  margin: 0px;
+  grid-template-columns: 170px 400px 1fr;
+}
+div .dos {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+div .tres {
+  display: grid;
+  grid-template-rows: 30px auto;
+}
+.quatro ul {
+  display: flex;
+  justify-content: right;
+}
+.quatro li {
+  margin: 5px;
+}
+.quatro {
+  display: grid;
+  grid-template-columns: 100%;
+}

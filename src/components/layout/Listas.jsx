@@ -10,7 +10,6 @@ import ListGroupItem from "react-bootstrap";
 import { Carousel, ListGroup } from "react-bootstrap";
 import axios from "axios";
 
-
 const dividirArray = (array, tamanho) => {
   const result = [];
   const arrayTemp = [...array];
@@ -25,21 +24,20 @@ function Listas() {
   const [musicas, setMusicas] = useState([]);
   const [usuarios, setUsuarios] = useState([]);
   const [playlistspessoal, setPlaylistspessoal] = useState("");
- 
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/playlists")
+      .get("https://spotifycloneback.onrender.com/playlists")
       .then((res) => setPlaylists(res.data));
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/musicas")
+      .get("https://spotifycloneback.onrender.com/musicas")
       .then((res) => setMusicas(res.data));
   }, []);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/usuarios")
+      .get("https://spotifycloneback.onrender.com/usuarios")
       .then((res) => setUsuarios(res.data));
   }, []);
   console.log(usuarios);
@@ -56,7 +54,7 @@ function Listas() {
     event.preventDefault();
 
     axios.post(
-      "http://localhost:5000/usuarios/" + usuarioLogado.iduser,
+      "https://spotifycloneback.onrender.com/usuarios/" + usuarioLogado.iduser,
       playlistspessoal
     );
     setPlaylistspessoal("");
@@ -131,7 +129,7 @@ function Listas() {
           <h1>Suas musicas</h1>
 
           <Button variant="light" type="submit" onSubmit={handleSubmit}>
-           Criar Playlist
+            Criar Playlist
           </Button>
 
           {play?.playlistspessoal.map((playlist, index) => (
@@ -164,7 +162,6 @@ function Listas() {
               </div>
             </div>
           ))}
-         
         </Container>
       </section>
     </>

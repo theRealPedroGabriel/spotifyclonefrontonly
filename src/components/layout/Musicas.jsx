@@ -10,7 +10,7 @@ function Musicas() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/playlists")
+      .get("https://spotifycloneback.onrender.com/playlists")
       .then((res) => setPlaylists(res.data));
   }, []);
 

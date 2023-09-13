@@ -38,7 +38,7 @@ function Perfil() {
     event.preventDefault();
     try {
       await axios
-        .patch("http://localhost:5000/usuarios/" + userid, {
+        .patch("https://spotifycloneback.onrender.com/usuarios/" + userid, {
           nome: name,
           email: email,
           senha: password,
